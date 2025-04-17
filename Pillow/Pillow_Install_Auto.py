@@ -236,3 +236,46 @@ time.sleep(2)
 automate_action("press", "enter", delay=time_waiting_v)
 print("✅ Terminal Run File Done")
 time.sleep(2)
+
+
+# ________________________________________________________
+# ________________________________________________________
+# ________________________________________________________
+# ________________________________________________________
+# ________________________________________________________
+
+time.sleep(3)
+automate_action("hotkey", "ctrl", "shift", "`", delay=time_waiting_v)
+time.sleep(3)
+
+pyperclip.copy("""pip install --upgrade Pillow""")
+automate_action("hotkey", "ctrl", "v",  delay=time_waiting_v)
+print("✅ Terminal Write pip install --upgrade Pillow Done")
+time.sleep(2)
+
+automate_action("press", "enter", delay=time_waiting_v)
+print("✅ Terminal Update Libraries Done")
+time.sleep(2)
+
+
+# ________________________________________________________
+# ________________________________________________________
+# ________________________________________________________
+# ________________________________________________________
+# ________________________________________________________
+
+time.sleep(3)
+automate_action("hotkey", "ctrl", "shift", "`", delay=time_waiting_v)
+time.sleep(3)
+
+pyperclip.copy("""pip show Pillow""")
+automate_action("hotkey", "ctrl", "v",  delay=time_waiting_v)
+print("✅ Terminal Write pip show Pillow Done")
+time.sleep(2)
+
+automate_action("press", "enter", delay=time_waiting_v)
+print("✅ Terminal Show Info Libraries Done")
+time.sleep(2)
+
+automate_action("hotkey", "ctrl", "j",  delay=time_waiting_v)
+time.sleep(2)
