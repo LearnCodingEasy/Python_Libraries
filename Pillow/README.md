@@ -2,8 +2,24 @@
 
 ### Install
 
-```
+```cmd
 pip install pillow
+```
+
+```cmd
+
+```
+
+```cmd
+
+```
+
+```cmd
+
+```
+
+```cmd
+
 ```
 
 ### Import
